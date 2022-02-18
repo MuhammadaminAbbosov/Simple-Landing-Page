@@ -1,0 +1,76 @@
+.section-4 {
+    margin-bottom: 80px;
+    padding: 0 168px;
+}
+
+.section-4 .company {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 105px;
+}
+
+.section-4 .content {
+    position: relative;
+    padding: 84px 52px 32px 52px;
+    border: 2px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-4 .content .img-box {
+    position: absolute;
+    top: -32px;
+    width: 96px;
+    height: 96px;
+}
+
+.section-4 .content .img-box img:first-child {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+}
+.section-4 .content .img-box img:last-child {
+    position: absolute;
+    right: -30px;
+}
+
+.section-4 .content .paragraph {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    color: #191919;
+    padding-bottom: 16px;
+}
+
+.section-4 .content .contnet-main b {
+    display: block;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    color: #191919;
+    text-align: center;
+    padding-bottom: 4px;
+}
+
+.section-4 .content .contnet-main .textx {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    
+    color: #666666;
+}
+
+.section-4 .content .contnet-main .textx span {
+    color: #0070F4;
+}

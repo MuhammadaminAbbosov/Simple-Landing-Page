@@ -1,0 +1,70 @@
+.section-5 {
+    padding: 0 168px 80px;
+}
+
+.section-5 .container {
+    position: relative;
+    background-color: #191919;
+    padding: 64px 0 64px 48px;
+}
+
+.section-5 .container b {
+    font-size: 32px;
+    line-height: 42px;    
+    letter-spacing: -0.25px;
+    padding-bottom: 8px;
+    color: #FFFFFF;
+}
+
+.section-5 .container .txt {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.25px;
+    color: #D6D6D6;
+    padding-bottom: 24px;
+}
+
+.section-5 .container img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.section-5 .container .input-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.section-5 .container .input-box input {
+    padding: 12px 0 12px 16px;
+    width: 320px;
+    background-color: #333333;
+    border: 1px solid #4C4C4C;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    
+    color: white;    
+    border-radius: 2px;
+    outline: none;
+}
+
+.section-5 .container .input-box input::placeholder {
+    color: #7F7F7F;
+}
+
+.section-5 .container .input-box a {
+    padding: 12px 32px;
+    background: #0070F4;
+    box-shadow: 0px 10px 15px -3px rgba(25, 32, 44, 0.16);
+    border-radius: 4px;
+    color: white;
+}
+
+.section-5 .container .txt2 {
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+}

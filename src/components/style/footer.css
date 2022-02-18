@@ -1,0 +1,126 @@
+footer {
+  padding: 48px 168px 0 168px;
+}
+
+footer .grid {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+footer .grid .flex {
+  margin-bottom: 48px;
+}
+
+footer .grid .flex .terms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .grid .flex .terms a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 8px;
+  color: #666666;
+  line-height: 22px;
+}
+
+footer .grid .flex h3 {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.25px;
+  color: #333333;
+}
+
+footer .grid .flex ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .grid .flex ul a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 8px;
+  color: #666666;
+  line-height: 22px;
+}
+
+footer .grid .flex form {
+  position: relative;
+  margin-top: 16px;
+}
+
+footer .grid .flex form input {
+  width: 100%;
+  height: 38px;
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+  padding: 0 25px 0 12px;
+  outline: none;
+}
+
+footer .grid .flex form span {
+  width: 20px;
+  height: 13px;
+  color: #338cf5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  border-left: 1px solid #eaeaea;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+footer .tarmoqlar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 33px 0 33px 0;
+}
+
+footer .tarmoqlar p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #666666;
+}
+
+footer .tarmoqlar p span {
+  color: #3796EE;
+}
+
+footer .tarmoqlar .logotips {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+/*# sourceMappingURL=footer.css.map */

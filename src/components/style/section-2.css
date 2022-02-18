@@ -1,0 +1,86 @@
+.section-2 {
+    margin-bottom: 80px;
+    padding: 0 168px;
+}
+
+section h3 ,.section-2 h3 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 52px;
+    color: #191919;
+    padding-bottom: 16px;
+}
+
+section .text, .section-2 .text {
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+    color: #666666;
+    padding-bottom: 80px;
+}
+
+.section-2 main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__left h4 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 52px;
+    color: #191919;
+    padding-bottom: 16px;
+}
+
+.main__left .info {
+    font-size: 18px;
+    line-height: 30px;
+    color: #666666;
+    padding-bottom: 32px;
+}
+
+.coursel {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.coursel .card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.coursel .card b {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #191919;
+}
+
+.coursel .card p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #666666;
+}
+
+.coursel .card:nth-child(1) {
+    background-color: #EAEAEA;
+}
+
+.coursel .card:nth-child(2), .coursel .card:nth-child(3){
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 6px -1px rgba(25, 25, 25, 0.04);
+}
+
+.coursel .card img {
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(25, 25, 25, 0.16);
+    border-radius: 20px;
+}

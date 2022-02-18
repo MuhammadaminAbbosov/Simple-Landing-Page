@@ -1,0 +1,72 @@
+.illustration {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 180px;
+    padding: 0 168px;
+}
+
+.illustration img {
+    box-shadow: 0px 20px 25px -5px rgba(25, 25, 25, 0.16);
+}
+
+.illustration button {
+    position: absolute;
+    bottom: -20px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 15px -3px rgba(25, 32, 44, 0.16);
+    border-radius: 28px;
+}
+.illustration button p {
+    color: #191919;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.big {
+    width: 256px;
+    height: 256px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #EAEAEA 77.4%, #DFDFDF 100%);
+    border-radius: 50%;
+    position: absolute;
+    top: 473px;
+    right: 21px;
+}
+
+.bigb {
+    width: 256px;
+    height: 256px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #EAEAEA 77.4%, #DFDFDF 100%);
+    border-radius: 50%;
+    position: absolute;
+    top: 3300px;
+    right: -160px;
+}
+
+.smallb {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #EAEAEA 77.4%, #DFDFDF 100%);
+    position: absolute;
+    left: -64px;
+    top: 3751px;
+}
+
+.small {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #EAEAEA 77.4%, #DFDFDF 100%);
+    position: absolute;
+    left: 70px;
+    top: 852px;
+}
